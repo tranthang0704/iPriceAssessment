@@ -1,7 +1,7 @@
 # iPrice Assessment
 This is a public repository for doing iPrice assessment
 
-####Example command (Windows 10)
+###Example command (Windows 10)
 
 Open `CMD` at root directory and run command
 ```
