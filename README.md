@@ -8,15 +8,19 @@ Example command running in Windows 10
 https://www.php.net/manual/en/install.php
 https://getcomposer.org/download/
 ``` 
-### Run main app
-Open `CMD` at root directory
+### Example command (Windows 10)
+Step 1 : Install `phpunit` via `composer`
 
-Step 1 : Run index file with command
+Open `CMD` at root directory and run command
+```
+composer install
+```
+Step 2 : Run index file with command
 ```
 php index.php
 ```
 
-Step 2 : Type your input string and press `Enter`
+Step 3 : Type your input string and press `Enter`
 ```
 This is a sample string !
 ```
@@ -28,13 +32,7 @@ tHiS Is a sAmPlE StRiNg !
 CSV file created with name output.csv !
 ```
 ### Running Unit Test
-Open `CMD` at root directory
-
-Step 1 : Install `phpunit` via `composer`
-```
-composer install
-```
-Step 2 : Waiting the installation is done and run test command
+Open `CMD` at root directory and run command
 ```
 ./vendor/bin/phpunit --testdox ./test/HelperTest
- ```
+```
