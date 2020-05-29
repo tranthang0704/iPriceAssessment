@@ -11,28 +11,28 @@ https://getcomposer.org/download/
 ### Example command (Windows 10)
 Open `GitBash` or `CMD` at root directory and run command
 
-Step 1 : Install `phpunit` via `composer`
+**Step 1 : Install `phpunit` via `composer`**
 ```
 composer install
 ```
-Step 2 : Run index file with command
+**Step 2 : Run index file with command**
 ```
 php index.php
 ```
 
-Step 3 : Type your input string and press `Enter`
+**Step 3 : Type your input string and press `Enter`**
 ```
 This is a sample string !
 ```
 
-Output expected
+**Output expected**
 ```
 THIS IS A SAMPLE STRING !
 tHiS Is a sAmPlE StRiNg !
 CSV file created with name output.csv !
 ```
 ### Running Unit Test
-Open `GitBash` or `CMD` at root directory and run command
+**Open `GitBash` or `CMD` at root directory and run command**
 
 ```
 #GitBash
