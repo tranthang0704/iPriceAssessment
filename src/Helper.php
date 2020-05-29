@@ -130,12 +130,12 @@ class Helper {
                 fclose($file);
                 return true;
             }
-            echo "Failed to open : " .$filename, PHP_EOL;
-            echo "Please try again !", PHP_EOL;
+            echo 'Failed to open : ' .$filename, PHP_EOL;
+            echo 'Please try again !', PHP_EOL;
             return false;
         } catch (Exception $exc) {
-            echo "Error occurred : " .$exc->getMessage(), PHP_EOL;
-            echo "Please try again !", PHP_EOL;
+            echo 'Error occurred : ' .$exc->getMessage(), PHP_EOL;
+            echo 'Please try again !', PHP_EOL;
             return false;
         }
     }
@@ -144,8 +144,8 @@ class Helper {
      * Define STDIN stream and only show report of ERROR level
      */
     function setUpSomeEnv() :void {
-        if(!defined("STDIN")) {
-            define("STDIN", fopen('php://stdin','r'));
+        if(!defined('STDIN')) {
+            define('STDIN', fopen('php://stdin','r'));
         }
         error_reporting(E_ERROR);
         mb_internal_encoding('UTF-8');
