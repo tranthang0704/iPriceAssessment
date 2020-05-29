@@ -1,7 +1,7 @@
 # iPrice Assessment
 This is a public repository for doing iPrice assessment
 
-Example command running in Windows 10
+Example command running on Windows 10
 
 ### Please install `php7` and `composer` since it is required for running this app
 ```
@@ -11,7 +11,7 @@ https://getcomposer.org/download/
 ### Example command (Windows 10)
 Step 1 : Install `phpunit` via `composer`
 
-Open `CMD` at root directory and run command
+Open `GitBash` or `CMD` at root directory and run command
 ```
 composer install
 ```
@@ -32,7 +32,12 @@ tHiS Is a sAmPlE StRiNg !
 CSV file created with name output.csv !
 ```
 ### Running Unit Test
-Open `CMD` at root directory and run command
+Open `GitBash` or `CMD` at root directory and run command
+
 ```
+#GitBash
 ./vendor/bin/phpunit --testdox ./test/HelperTest
+
+#CMD
+.\vendor\bin\phpunit --testdox .\test\HelperTest.php
 ```
