@@ -9,9 +9,9 @@ https://www.php.net/manual/en/install.php
 https://getcomposer.org/download/
 ``` 
 ### Example command (Windows 10)
-Step 1 : Install `phpunit` via `composer`
-
 Open `GitBash` or `CMD` at root directory and run command
+
+Step 1 : Install `phpunit` via `composer`
 ```
 composer install
 ```
